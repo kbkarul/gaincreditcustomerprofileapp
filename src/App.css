@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+  background-image: url('/appBG.jpg');
+  height:100vh;
+  overflow: scroll;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.productImage {
+}
+
+.appHeader {
+  margin-top: 10px;
+  display: inline-flex;
+  width: 100%;
+  height: 2em;
+  background-color: #fff;
+  border-radius: 20px;
+}
+@media ( min-width: 600px) {
+  .appHeader {
+    font-size: 2em;
+  }
+}
+
+.menu {
+  width: 50%;
+  align-self: center;
+}
+
+.menuLink:hover {
+  border-bottom: 2px solid blue;
+}
+.menuLink {
+  text-decoration: none;
+  align-items: last baseline;
+}
+.appLogo {
+  padding-left: 5px;
+  align-self: center;
+}
+@media ( max-width: 599px) {
+.appLogo img {
+    height: 5vh;
+}
+}
+.sectionHeader {
+  text-align: initial;
+  font-size: 30px;
+}
+.profileImage {
+  height: 150px;
+  width: 150px;
+}
+.profilePrimaryInfo {
+  padding-left: 10px;
+  text-align: initial;
+  line-height: 30px;
+}
+@media ( min-width: 600px) {
+  .profilePrimarySection {
+    display: flex;
+  }
+}
+.profileSectionContainer {
+  text-align: initial;
+  padding: 10px;
+}
+.profileAboutContent {
+  padding: 10px 5px;
+  line-height: 25px;
+}
+.orderDetailsContainer {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.orderImageContainer {
+  display: inline-flex;
+  width: 100%;
+}
+
+@media ( min-width: 600px) {
+  .orderImageInnerContainer {
+    width: 15%;
+  }
+}
+@media ( max-width: 599px) {
+  .orderImageInnerContainer {
+    width: 22%;
+  }
+}
+
+.orderImage {
+  align-self: auto;
+}
+.orderDetailsOuterContainer {
+  padding: 10px;
+  width: 100%;
+  line-height: 25px;
+  text-align: initial;
+}
+@media (max-width: 599px) {
+  .orderDetailsOuterContainer {
+    padding-top: 0;
+  }
+}
+.orderDetailsInnerContainer {
+  display: inline-flex;
+  width: 100%;
+}
+@media (max-width: 599px) {
+  .orderDetailsInnerContainer {
+    display: initial;
+    line-height: 20px;
+  }
+}
+@media (min-width: 600px) {
+  .orderContainer {
+    width: 35%;
+  }
+}
+.productContainer {
+  text-align: initial;
+}
+@media (min-width: 600px) {
+.productInnerContainer {
+  display: inline-flex;
+}
+}
+.productImageContainer {
+  align-items: center;
+}
+.productStatusContainer {
+  align-self: center;
+  padding-left: 10px;
+  line-height: 50px;
+}
+.appContentContainer {
+  padding-left: 10px;
+}
+.productNameContainer {
+  font-size: 30px;
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+.boldText {
+  font-weight: bold;
+}
+.semiboldText {
+  font-weight: bold;
+  font-color: #252526;
+}
